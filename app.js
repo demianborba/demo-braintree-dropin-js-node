@@ -44,6 +44,9 @@ app.post('/process', parseUrlEnconded, function (request, response) {
     if (err) throw err;
 
     if (result.success) {
+
+      console.log(result);
+
       response.sendFile('success.html', {
         root: './public'
       });
