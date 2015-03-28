@@ -1,0 +1,22 @@
+{
+  "name": "braintree-transaction-node-public",
+  "version": "0.1.0",
+  "homepage": "https://github.com/demianborba/braintree-transaction-node",
+  "authors": [
+    "Demian Borba <demian.borba@actioncreations.com>"
+  ],
+  "description": "Public folder serving html, css and js files",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pure": "~0.5.0",
+    "braintree-web": "~2.5.1"
+  }
+}
